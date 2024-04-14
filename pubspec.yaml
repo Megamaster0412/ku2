@@ -1,0 +1,27 @@
+name: virtualku
+description: "A new Flutter project."
+publish_to: 'none' # This prevents the package from being published to pub.dev
+
+environment:
+  sdk: '>=3.3.0 <4.0.0' # Ensure your SDK version is compatible with your dependencies
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_maps_flutter: ^2.3.0
+  location: ^6.0.1
+  flutter_polyline_points: ^2.0.0
+  arcore_flutter_plugin: 0.1.0
+  flutter_map: ^6.1.0
+  ar_flutter_plugin: ^0.7.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ # Ensure this path is correct based on your project structure
